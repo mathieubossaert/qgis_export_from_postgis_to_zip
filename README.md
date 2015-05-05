@@ -5,6 +5,6 @@ Ce dépot contient de quoi automatiser ces exports depuis QGis, et en garder la 
 
 Il nécessite :
   * la création d'une table spatiale qui stocke les périmètres d'export, qui sera éditée dans QGis.
-  * le fichier de commande qui générère l'export
-  * l'action python qui se céclenche sur les objts de la table périmetre_export
   * la création d'une table qui stocke quelles données ont été envoyées à qui et quand
+  * le fichier de commande qui générère l'export (un .bat dans notre cas)
+  * l'action python qui se céclenche sur les objts de la table périmetre_export
