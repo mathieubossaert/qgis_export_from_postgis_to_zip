@@ -1,1 +1,10 @@
 # qgis_export_from_postgis_to_zip
+
+L'export de données est une chose récurente.
+Ce dépot contient de quoi automatiser ces exports depuis QGis, et en garder la trace.
+
+Il nécessite :
+  * la création d'une table spatiale qui stocke les périmètres d'export, qui sera éditée dans QGis.
+  * le fichier de commande qui générère l'export
+  * l'action python qui se céclenche sur les objts de la table périmetre_export
+  * la création d'une table qui stocke quelles données ont été envoyées à qui et quand
