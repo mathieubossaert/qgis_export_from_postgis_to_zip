@@ -7,4 +7,4 @@ Il nécessite :
   * la création d'une table spatiale qui stocke les périmètres d'export, qui sera éditée dans QGis.
   * la création d'une table qui stocke quelles données ont été envoyées à qui et quand
   * le fichier de commande qui génère l'export (un .bat dans notre cas)
-  * l'action python qui se céclenche sur les objts de la table périmetre_export
+  * l'action python qui se déclenche sur les objets de la table perimetre_export
